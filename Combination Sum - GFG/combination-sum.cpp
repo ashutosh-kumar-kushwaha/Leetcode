@@ -12,7 +12,6 @@ class Solution {
     
     void findCombinationSum(int i, vector<int> p, vector<int> set, int target, vector<vector<int>> &result){
         if(target == 0){
-            // sort(p.begin(), p.end());
             result.push_back(p);
             return;
         }
